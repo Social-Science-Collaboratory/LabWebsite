@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "Social-Science-Collaboratory/ssc_labsite",
+    "data-repo": "Social-Science-Collaboratory/LabWebsite",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
