@@ -20,10 +20,6 @@ The site is being migrated from Wix (current site: https://www.nicholas-a-coles.
 - **Live site:** https://social-science-collaboratory.github.io/LabWebsite/
 - **Local environment:** Windows 11, VS Code, GitHub Desktop, PowerShell
 
-## Person you're working with
-
-You are working with an RA at the Lab. The RA is a CS student comfortable with Python, C++, R -- new to Jekyll, GitHub Pages, and Claude Code, but RA is technically capable and learns fast. Prefers step-by-step guidance with explanations of *why*, not just *what*.
-
 ## Working preferences
 
 - **Explain before doing.** For non-trivial changes, briefly say what you're about to do and why before doing it. For tiny edits (typo fixes, single config values), just do it.
