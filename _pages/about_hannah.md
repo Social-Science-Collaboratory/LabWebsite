@@ -1,0 +1,1 @@
+Hannah is a second-year undergraduate research assistant studying Computer Science and Psychology. She is especially interested in learning how computer science methods can be used to advance understanding of human behavior. Outside of the lab, Hannah enjoys traveling to new places, playing soccer, and getting coffee.

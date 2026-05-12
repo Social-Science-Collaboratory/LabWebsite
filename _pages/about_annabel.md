@@ -1,0 +1,3 @@
+Annabel is a Ph.D. student in social psychology at the University of Florida. She received her B.S. in neuropsychology from the University of California, Santa Barbara. Her research interest include emotion and culture, with a focus on how cultural contexts shape emotional experience and expression. She is also interested in methodological approaches to studying both universal and culturally specific aspects of human psychology. Outside of her academic work, Annabel enjoys painting, traveling, and experimenting with new recipes (to varying degrees of success).
+
+​
