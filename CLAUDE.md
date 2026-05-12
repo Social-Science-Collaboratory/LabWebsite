@@ -32,11 +32,11 @@ The site is being migrated from Wix (current site: https://www.nicholas-a-coles.
 
 - ✅ Repo created from al-folio template
 - ✅ GitHub Pages enabled, deploy workflow succeeding
-- ⏳ `_config.yml` URL/baseurl set correctly; live site loads
+- ✅ `_config.yml` URL/baseurl set correctly; live site loads
 - ⏳ Local preview environment (Docker via al-folio's `.devcontainer/`, or native Ruby+Jekyll) — **next task**
-- ⏳ Demo content cleanup (Einstein bio, demo publications, demo projects)
+- ⏳ Demo content cleanup — `about.md` updated with real PI bio and research links; `about_einstein.md` still present (needs removal); demo publications/projects still in place
 - ⏳ Disable unused al-folio features (CV, teaching, books, etc.) in `_config.yml`
-- ⏳ Port content from Wix site (three research-strand sections, People page)
+- ⏳ Port content from Wix site — PI bio drafted in `about.md`; three research-strand sections and People page still needed
 - ⏳ Custom domain transfer from Wix (later)
 
 ## Decisions already made
