@@ -43,7 +43,7 @@ The site is being migrated from Wix (current site: https://www.nicholas-a-coles.
 
 - **Theme: al-folio**, chosen over Beautiful Jekyll because al-folio has built-in structure for lab sites (people, publications, projects, news as al-folio collections) that maps better to the Collaboratory's content.
 - **Repo name: `LabWebsite`** (capital L, capital W). The site lives at `/LabWebsite/`. May rename to lowercase-hyphenated later; if so, update `baseurl` in `_config.yml`.
-- **Deployment: GitHub Actions** (al-folio's default), source = "GitHub Actions" in Settings → Pages.
+- **Deployment: GitHub Actions** (al-folio's default), source = "Deploy from a branch" → `gh-pages` branch in Settings → Pages. The workflow uses `JamesIves/github-pages-deploy-action` which pushes the built site to the `gh-pages` branch; GitHub Pages serves from there.
 - **Workflows to disable/delete:** "Prettier code formatter" and "Render a CV" — both fail noisily and aren't needed for a lab site. Don't need to act on this immediately; tracking for cleanup pass.
 
 ## Useful file/folder map (al-folio)
