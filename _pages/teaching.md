@@ -1,15 +1,22 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: true
-nav_order: 6
-calendar: true
+permalink: /contact/
+title: contact
+nav: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Press
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+<!-- Add press contact information here -->
 
-{% include courses.liquid %}
+## Prospective PhD Students
+
+<!-- Add information for prospective PhD students here -->
+
+## Lab Positions
+
+<!-- Add information about open lab positions here -->
+
+## Other Inquiries
+
+<!-- Add general contact information here -->
