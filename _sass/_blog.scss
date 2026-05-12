@@ -2,6 +2,29 @@
  * Blog post and listing styles
  ******************************************************************************/
 
+.post-header-bg {
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  .post-title,
+  .post-description {
+    position: relative;
+    color: #fff;
+  }
+}
+
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
