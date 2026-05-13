@@ -1,11 +1,11 @@
 ---
 layout: page
-title: research group
+title: research
 nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: research
+  - title: research group
     permalink: /projects/
   - title: divider
   - title: people

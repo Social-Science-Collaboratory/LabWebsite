@@ -6,10 +6,11 @@ title: home
 permalink: /
 subtitle: Social Science Collaboratory · University of Florida
 
+header_image: 10.jpg
+
 profile:
   align: right
-  image: # add lab photo or logo filename here
-  header_image: 10.jpg
+  image: prof_pic.jpg # add lab photo or logo filename here
   image_circular: false # crops the image to make it circular
   more_info: # add address or contact info here if needed
 
