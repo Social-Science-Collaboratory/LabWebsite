@@ -4,30 +4,50 @@ permalink: /contact/
 title: contact
 nav: false
 ---
-
+<style>
+  #contactAccordion .accordion-item {
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  #contactAccordion .accordion-button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    text-align: left;
+    padding: 18px 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: block;
+  }
+  #contactAccordion .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  #contactAccordion .accordion-body {
+    padding: 12px 20px 20px;
+  }
+</style>
 <div class="accordion" id="contactAccordion">
-
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingPress">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePress" aria-expanded="false" aria-controls="collapsePress">
-        Press
-      </button>
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapsePress" aria-expanded="false" aria-controls="collapsePress">Press</button>
     </h2>
-    <div id="collapsePress" class="accordion-collapse collapse" aria-labelledby="headingPress" data-bs-parent="#contactAccordion">
+    <div id="collapsePress" class="collapse" aria-labelledby="headingPress" data-parent="#contactAccordion">
       <div class="accordion-body">
         <p>Press inquiries can be submitted via this form:</p>
         <a href="#" class="btn btn-outline-secondary" target="_blank">Press Form</a>
       </div>
     </div>
   </div>
-
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingPhD">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhD" aria-expanded="false" aria-controls="collapsePhD">
-        Prospective PhD Students
-      </button>
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapsePhD" aria-expanded="false" aria-controls="collapsePhD">Prospective PhD Students</button>
     </h2>
-    <div id="collapsePhD" class="accordion-collapse collapse" aria-labelledby="headingPhD" data-bs-parent="#contactAccordion">
+    <div id="collapsePhD" class="collapse" aria-labelledby="headingPhD" data-parent="#contactAccordion">
       <div class="accordion-body">
         <p>We plan on reviewing applications for 0–1 PhD students to join the team starting Fall 2026.</p>
         <p>PhD students can usually expect a full tuition remission and a small stipend for 5 years.</p>
@@ -36,31 +56,24 @@ nav: false
       </div>
     </div>
   </div>
-
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingPositions">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePositions" aria-expanded="false" aria-controls="collapsePositions">
-        Lab Positions
-      </button>
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapsePositions" aria-expanded="false" aria-controls="collapsePositions">Lab Positions</button>
     </h2>
-    <div id="collapsePositions" class="accordion-collapse collapse" aria-labelledby="headingPositions" data-bs-parent="#contactAccordion">
+    <div id="collapsePositions" class="collapse" aria-labelledby="headingPositions" data-parent="#contactAccordion">
       <div class="accordion-body">
         <p>If/when paid and volunteer positions open in the lab, we will post them here.</p>
       </div>
     </div>
   </div>
-
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOther">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOther" aria-expanded="false" aria-controls="collapseOther">
-        Other Inquiries
-      </button>
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOther" aria-expanded="false" aria-controls="collapseOther">Other Inquiries</button>
     </h2>
-    <div id="collapseOther" class="accordion-collapse collapse" aria-labelledby="headingOther" data-bs-parent="#contactAccordion">
+    <div id="collapseOther" class="collapse" aria-labelledby="headingOther" data-parent="#contactAccordion">
       <div class="accordion-body">
         <p><a href="mailto:INSERT_EMAIL_HERE" style="text-decoration: underline;">Email</a> is acceptable, but please be mindful of <a href="https://dl.acm.org/doi/10.1145/238386.238530" target="_blank" style="text-decoration: underline;">email overload</a>.</p>
       </div>
     </div>
   </div>
-
 </div>

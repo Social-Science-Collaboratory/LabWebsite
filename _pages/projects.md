@@ -7,7 +7,8 @@ nav: false
 nav_order: 3
 ---
 
-<h2 style="text-align: left;">Studying big team science</h2>
+<h2 style="text-align: left; font-weight: 600; margin-bottom: 0;">Studying big team science</h2>
+<div style="width: 5.5em; height: 1px; background-color: currentColor; margin-bottom: 1.2em;"></div>
 
 <p>Big team science endeavors represent the largest and most ambitious investments of social capital in science. Yet, we lack a systematic understanding of their prevalence, impact, and drawbacks. We study the rise, impact, and drawbacks of such initiatives comprehensively by tracking millions of scientific teams throughout the history of science. For example, in an analysis of over 3 million psychology papers, we found the largest teams tend to generate the largest amount of impact, in terms of attention in science, the news, social media, and policy documents. Currently, we are leveraging these tools to examine ways that scientists have most effectively responded to urgent societal developments, such as (a) sudden threats to national security, (b) global pandemics, and (c) the sudden public release and uptake of disruptive AI technologies.</p>
 
@@ -18,7 +19,8 @@ nav_order: 3
 
 ---
 
-<h2 style="text-align: left;">Building big team science</h2>
+<h2 style="text-align: left; font-weight: 600; margin-bottom: 0;">Building big team science</h2>
+<div style="width: 5.5em; height: 1px; background-color: currentColor; margin-bottom: 1.2em;"></div>
 
 <p>A second strand of our work focuses on building big team science initiatives that tackle questions we find meaningful. For example, we built:</p>
 
@@ -35,7 +37,8 @@ nav_order: 3
 
 ---
 
-<h2 style="text-align: left;">Supporting big team science</h2>
+<h2 style="text-align: left; font-weight: 600; margin-bottom: 0;">Supporting big team science</h2>
+<div style="width: 5.5em; height: 1px; background-color: currentColor; margin-bottom: 1.2em;"></div>
 
 <p>A third strand of our work focuses on supporting collaboration in science. For example, we published one of the first guides to big team science, with additional papers dedicated to issues with authorship and disagreements in team science. We use insights like these to advise and support other big team science initiatives, including:</p>
 
