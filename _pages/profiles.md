@@ -10,7 +10,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: Coles_headshot.jpeg
     content: about_nicholas.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -40,7 +40,7 @@ profiles:
     more_info: >
       <p><strong>Abhay Alaukik</strong><br>Post-Doc Researcher</p>
   - align: left
-    image: gabrielle_headshot.jpeg
+    image: Gabrielle_headshot.jpeg
     content: about_gabby.md
     image_circular: false # crops the image to make it circular
     more_info: >
