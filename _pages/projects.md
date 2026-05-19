@@ -1,11 +1,20 @@
 ---
 layout: page
-title: research
+title: The Social Science Collaboratory
 permalink: /projects/
 description:
 nav: false
 nav_order: 3
 ---
+
+<div style="display: flex; align-items: center; gap: 2.5rem; margin-bottom: 3rem; border: 1px solid #d0d0d0; border-radius: 4px; padding: 1.5rem;">
+  <div style="flex: 1;">
+    <p>Many of the most exciting scientific accomplishments of the past few decades – such as mapping the human genome or developing transformative AI technologies – have required researchers to do something unusual: collaborate on a massive scale. Our group specializes in <strong>developing</strong>, <strong>supporting</strong>, and <strong>studying</strong> such initiatives.</p>
+  </div>
+  <div style="flex: 1;">
+    <img src="{{ 'assets/img/group_photo.jpg' | relative_url }}" alt="Social Science Collaboratory group photo" style="width: 100%; border-radius: 4px;">
+  </div>
+</div>
 
 <h2 style="text-align: left; font-weight: 600; margin-bottom: 0;">Studying big team science</h2>
 <div style="width: 5.5em; height: 1px; background-color: currentColor; margin-bottom: 1.2em;"></div>
@@ -13,7 +22,7 @@ nav_order: 3
 <p><a href="https://www.nature.com/articles/d41586-022-00150-2"><u>Big team science</u></a> endeavors represent the largest and most ambitious investments of social capital in science. Yet, we lack a systematic understanding of their prevalence, impact, and drawbacks. We study the rise, impact, and drawbacks of such initiatives comprehensively by tracking millions of scientific teams throughout the history of science. For example, in an <a href="https://osf.io/preprints/psyarxiv/b3mq6_v1"><u>analysis of over 3 million psychology papers</u></a>, we found the largest teams tend to generate the largest amount of impact, in terms of attention in science, the news, social media, and policy documents. Currently, we are leveraging these tools to examine ways that scientists have most effectively responded to urgent societal developments, such as (a) sudden threats to national security, (b) global pandemics, and (c) the sudden public release and uptake of disruptive AI technologies.</p>
 
 <div class="card border p-3 mb-5">
-  <p>Figure 1. In psychology, research by larger teams receives more mentions in scholarly articles, news, and public policy.</p>
+  <p><em>Figure 1. In psychology, research by larger teams receives more mentions in scholarly articles, news, and public policy.</em></p>
   {% include figure.liquid path="assets/img/btpsych_figure.avif" class="img-fluid rounded" %}
 </div>
 
@@ -31,7 +40,7 @@ nav_order: 3
 </ul>
 
 <div class="card border p-3 mb-5">
-  <p>Figure 2. The Global Gratitude Collaboration collected data from 10,772 participants in 34 countries that covered a broad set of cross-cultural differences.</p>
+  <p><em>Figure 2. The Global Gratitude Collaboration collected data from 10,772 participants in 34 countries that covered a broad set of cross-cultural differences.</em></p>
   {% include figure.liquid path="assets/img/gg_culture.avif" class="img-fluid rounded" %}
 </div>
 

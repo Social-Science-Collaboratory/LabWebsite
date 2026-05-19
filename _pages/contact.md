@@ -39,7 +39,7 @@ nav: false
     <div id="collapsePress" class="collapse" aria-labelledby="headingPress" data-parent="#contactAccordion">
       <div class="accordion-body">
         <p>Press inquiries can be submitted via this form:</p>
-        <a href="#" class="btn btn-outline-secondary" target="_blank">Press Form</a>
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=-KBNDTFKdk2s5gpiMx4bhIs2HMEiC79Fu5vV4_N2TUxUQkM4RFZYQzQxWTc5OEZCNVU0VkwxWjFJUSQlQCN0PWcu" class="btn btn-outline-secondary" target="_blank">Press Form</a>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ nav: false
     </h2>
     <div id="collapseOther" class="collapse" aria-labelledby="headingOther" data-parent="#contactAccordion">
       <div class="accordion-body">
-        <p><a href="mailto:INSERT_EMAIL_HERE" style="text-decoration: underline;">Email</a> is acceptable, but please be mindful of <a href="https://dl.acm.org/doi/10.1145/238386.238530" target="_blank" style="text-decoration: underline;">email overload</a>.</p>
+        <p><a href="mailto:ncoles@ufl.edu" style="text-decoration: underline;">Email</a> is acceptable, but please be mindful of <a href="https://dl.acm.org/doi/10.1145/238386.238530" target="_blank" style="text-decoration: underline;">email overload</a>.</p>
       </div>
     </div>
   </div>
