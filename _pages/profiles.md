@@ -16,29 +16,29 @@ profiles:
     more_info: >
       <p><strong>Nicholas Coles</strong><br>Director</p>
   - align: left
+    image: abhay_headshot.jpg
+    content: about_abhay.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><strong>Abhay Alaukik</strong><br>Post-Doc Researcher</p>
+  - align: right
     image: cindy_headshot.png
     content: about_cindy.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p><strong>Cindy-Rui Jin</strong><br>Graduate Student</p>
-  - align: right
+  - align: left
     image: annabel_headshot.png
     content: about_annabel.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p><strong>Annabel Dang</strong><br>Graduate Student</p>
-  - align: left
+  - align: right
     image: joao_headshot.png
     content: about_joao.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p><strong>Joao Francisco Goes Braga Takayanagi</strong><br>Post-Bachelor Researcher</p>
-  - align: right
-    image:
-    content: about_abhay.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p><strong>Abhay Alaukik</strong><br>Post-Doc Researcher</p>
   - align: left
     image: Gabrielle_headshot.jpeg
     content: about_gabby.md

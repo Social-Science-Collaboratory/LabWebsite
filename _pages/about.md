@@ -12,9 +12,9 @@ profile:
   image_circular: false
   more_info: >
     <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;">
-      <a href="/LabWebsite/cv/" class="btn btn-outline-dark btn-sm">My CV</a>
-      <a href="/LabWebsite/contact/" class="btn btn-outline-dark btn-sm">Contact</a>
-      <a href="/LabWebsite/people/" class="btn btn-outline-dark btn-sm">My team</a>
+      <a href="/LabWebsite/cv/" class="btn btn-sm" style="border: 1px solid var(--global-text-color); color: var(--global-text-color);">My CV</a>
+      <a href="/LabWebsite/contact/" class="btn btn-sm" style="border: 1px solid var(--global-text-color); color: var(--global-text-color);">Contact</a>
+      <a href="/LabWebsite/people/" class="btn btn-sm" style="border: 1px solid var(--global-text-color); color: var(--global-text-color);">My team</a>
     </div>
 
 selected_papers: false
