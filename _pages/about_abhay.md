@@ -1,0 +1,3 @@
+Abhay is a postdoctoral researcher at the University of Florida working at the intersection of formal social and cognitive modeling. He received his MS and PhD in Psychology from the University of Florida. Broadly, he implements mathematical models and computational social science approaches to enhance theorization across topics. Some of his current projects include modeling (a) big team science trust dynamics, (b) agentic AI-human interactions, (c) goal-directed information search strategies, and (d) social group evaluations/associations.
+
+In his free time, he enjoys visiting national parks and logging reviews on Letterboxd.
