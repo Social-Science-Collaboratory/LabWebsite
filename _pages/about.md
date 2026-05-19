@@ -36,7 +36,7 @@ _styles: >
     max-width: 430px;
   }
 ---
-<div style="padding-left: 1.5rem;" markdown="1">
+<div style="padding-left: 2.5rem;" markdown="1">
 
 I am an Assistant Professor at the University of Florida, where I direct the Social Science Collaboratory: a group dedicated to building and understanding big team science initiatives.
 

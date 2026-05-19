@@ -14,7 +14,7 @@ nav_order: 3
 
 <div class="card border p-3 mb-5">
   <p>Figure 1. In psychology, research by larger teams receives more mentions in scholarly articles, news, and public policy.</p>
-  {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded" %}
+  {% include figure.liquid path="assets/img/btpsych_figure.avif" class="img-fluid rounded" %}
 </div>
 
 ---
@@ -32,7 +32,7 @@ nav_order: 3
 
 <div class="card border p-3 mb-5">
   <p>Figure 2. The Global Gratitude Collaboration collected data from 10,772 participants in 34 countries that covered a broad set of cross-cultural differences.</p>
-  {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded" %}
+  {% include figure.liquid path="assets/img/gg_culture.avif" class="img-fluid rounded" %}
 </div>
 
 ---
