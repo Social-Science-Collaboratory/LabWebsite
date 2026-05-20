@@ -19,6 +19,12 @@ strong {
   color: var(--global-text-color);
 }
 
+
+.post-title,
+.about-header h1 {
+  font-family: "DM Sans", sans-serif;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

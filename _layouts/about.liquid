@@ -12,7 +12,7 @@ layout: default
     <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center;">
       <div style="width: 100%; max-width: {{ site.max_width | default: '930px' }}; margin: 0 auto; padding: 0 15px; box-sizing: border-box;">
         <div style="padding-left: calc(38% + 2.5rem); text-align: left;">
-          <h1 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.2; color: #2c2c2c;">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</h1>
+          <h1 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.2; color: #2c2c2c; font-family: 'DM Sans', sans-serif;">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}</h1>
           <p style="font-size: 1.1rem; margin: 0; line-height: 1.9; color: #444; font-weight: 400;">{{ page.subtitle }}</p>
         </div>
       </div>
@@ -36,29 +36,30 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+      <div style="display: flex; gap: 2.5rem; align-items: flex-start;">
+        <div class="profile" style="flex-shrink: 0;">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+        <div style="flex: 1; min-width: 0;">{{ content }}</div>
       </div>
+    {% else %}
+      <div>{{ content }}</div>
     {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

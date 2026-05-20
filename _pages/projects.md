@@ -41,7 +41,7 @@ nav_order: 3
 
 <div class="card border p-3 mb-5">
   <p><em>Figure 2. The Global Gratitude Collaboration collected data from 10,772 participants in 34 countries that covered a broad set of cross-cultural differences.</em></p>
-  {% include figure.liquid path="assets/img/gg_culture.avif" class="img-fluid rounded" %}
+  {% include figure.liquid path="assets/img/gg_culture.avif" class="img-fluid rounded" style="width: 67%;" %}
 </div>
 
 ---
